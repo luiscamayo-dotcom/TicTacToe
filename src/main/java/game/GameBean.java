@@ -1,4 +1,5 @@
-package game;
+
+ package game;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -6,7 +7,7 @@ import java.util.List;
 import java.util.Random;
 
 public class GameBean {
-    private static final int GRID_SIZE = 10;
+    private static final int GRID_SIZE = 4;
     
     public enum GameState {
         NULL, O, X;
