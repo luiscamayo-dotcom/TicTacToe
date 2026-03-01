@@ -12,7 +12,7 @@
     </head>
     <body>
         <h1>Tres en raya</h1>
-        <table border="1">
+        <table border="10">
             <c:forEach var="line" items="${gameBean.gridLines}">
                 <tr>
                     <c:forEach var="cell" items="${gameBean.getGridStatus(line)}">
